@@ -36,3 +36,17 @@ if (originalWord === userReversedWord){
     alert(`This word is a palyndrome`);
 }
 
+// Exercise 3
+
+function arrayMixer (it1, it2, it3, it4, it5, it6, it7, it8){
+    const array1 = [it1, it2, it3, it4];
+    const array2 = [it5, it6, it7, it8];
+    const mixedArrays = [array1[0], array2[0], array1[1], array2[1], array1[2], array2[2], array1[3], array2[3]];
+    return mixedArrays;
+}
+
+const elements = arrayMixer(1, 2, 3, 4, 'a', 'b', 'c', 'd');
+console.table(elements);
+
+// Exercise 4
+
